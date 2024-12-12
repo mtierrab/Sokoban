@@ -14,7 +14,6 @@ public class Button : MonoBehaviour
             GameManager.Instance.CheckLevelComplete();
         }
     }
-
     // Update is called once per frame
     private void OnTriggerExit2D(Collider2D other)
     {
